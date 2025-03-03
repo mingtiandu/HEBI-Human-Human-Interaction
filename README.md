@@ -3,7 +3,6 @@
 Install python minimum required python 3.6 from:
 https://www.python.org/downloads/
 
-
 Install cmake minimum required cmake 3.12 from:
 https://cmake.org/download/
 
@@ -11,6 +10,8 @@ https://cmake.org/download/
 ### For windows
 Install visual studio from:
 https://visualstudio.microsoft.com/downloads/
+
+
 
 
 Install _desktop development with C++_ from Visual Studio Installer
@@ -31,8 +32,6 @@ cmake --help
 
 Lets say you are using Visual Studio 2022, then you need
 ```
-cmake -G"Visual Studio 17 2022" -Ax64 ../
+cmake -G"Visual Studio 17 2022" -Ax64 ../projects/cmake/
+```
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjY5MjM0OV19
--->
