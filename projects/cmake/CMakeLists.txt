@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.12)
-project(hebi_human_human)
+project(hebi_cpp_examples)
 
 SET (CMAKE_CXX_STANDARD 20)
 SET (CMAKE_CXX_STANDARD_REQUIRED True)
@@ -54,6 +54,7 @@ foreach (EXAMPLE ${X_SERIES_SOURCES})
   else()
     add_executable(${EX_NAME} ${EXAMPLE})
 
+
   # Create logs directory in case the example logs data.
   add_custom_command(TARGET ${EX_NAME} POST_BUILD
                      COMMAND ${CMAKE_COMMAND} -E make_directory
@@ -83,6 +84,9 @@ foreach (EXAMPLE ${X_SERIES_SOURCES})
   endif()
 
 endforeach (EXAMPLE ${X_SERIES_SOURCES})
+
+
+
 
 
 
