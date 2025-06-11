@@ -80,7 +80,7 @@ int main(int argc, char const* argv[]) {
         eff_fdk = group_feedback.getEffort();
 
         // Obtain the amount of command effort from position feedback
-        double effort = ToEffort(pos_fdk[1], pos_fdk[2]);
+        double effort = ToEffort(pos_fdk[0], pos_fdk[1]);
         eff_cmd[0] = effort;
         eff_cmd[1] = -effort;
 
