@@ -23,9 +23,9 @@ using namespace hebi;
 #define maxVelocity 1
 #define maxEffort 1
 
-double ToEffort(double pos1, double pos2) {
+double ToEffort(double feedbackPos, double targetPos) {
     double stiffness = 0.01;
-    return stiffness * (pos1 - pos2);
+    return stiffness * (targetPos - feedbackPos);
 }
 
 int main(int argc, char const* argv[]) {
