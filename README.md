@@ -43,7 +43,8 @@ cmake -G"Visual Studio 16 2019" -Ax64 ../projects/cmake/
 ```
 
 Then open the **build/hebi\_human\_human.sln** from visual studio
-To know the version of you Visual Studio by
+
+To obtain the version of you Visual Studio by
 
 ```
 cmake --help
@@ -51,7 +52,7 @@ cmake --help
 
 
 
-Lets say you are using Visual Studio 2022, then you need
+If you are using Visual Studio 2022
 
 ```
 cmake -G"Visual Studio 17 2022" -Ax64 ../projects/cmake/
